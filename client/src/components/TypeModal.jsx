@@ -44,7 +44,7 @@ class TypeModal extends Component {
             <Button color="danger" onClick={() => { this.toggle(); this.addType(); }}>
               Submit
             </Button>
-            <Button color="clear" onClick={() => this.toggle}>Cancel</Button>
+            <Button color="clear" onClick={() => this.toggle()}>Cancel</Button>
           </ModalFooter>
         </Modal>
       </div>
